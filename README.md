@@ -9,4 +9,4 @@ Home to the template of my personal CV.
 
 An example generated with fake data. The content of my CV is stored in a private repository.
 
-![Example cv generated from main.typ and content.toml](./exmple.svg)
+![Example cv generated from main.typ and content.toml](./example.svg)
