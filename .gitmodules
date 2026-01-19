@@ -1,0 +1,3 @@
+[submodule "cv-content"]
+	path = cv-content
+	url = git@github.com:chrisdoram/cv-content.git
