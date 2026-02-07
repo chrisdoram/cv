@@ -23,7 +23,6 @@
       roles: (
         (
           title: "Senior Software Engineer",
-          description: none,
           start-date: "Sep 2025",
           end-date: "Present",
           highlights: (
@@ -33,7 +32,6 @@
         ),
         (
           title: "Software Engineer",
-          description: none,
           start-date: "May 2023",
           end-date: "Sep 2025",
           highlights: (
@@ -54,7 +52,6 @@
           start-date: "Apr 2021",
           end-date: "May 2023",
           highlights: (
-            lorem(30),
           ),
         ),
       )
@@ -66,7 +63,6 @@
       roles: (
         (
           title: "Consultant Engineer",
-          description: none,
           start-date: "Sep 2020",
           end-date: "May 2023",
           highlights: (
