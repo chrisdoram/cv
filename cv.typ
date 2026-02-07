@@ -52,6 +52,8 @@
           start-date: "Apr 2021",
           end-date: "May 2023",
           highlights: (
+            lorem(20),
+            lorem(25)
           ),
         ),
       )
