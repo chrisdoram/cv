@@ -1,0 +1,2 @@
+# ignore all locally generated pdf files
+*.pdf

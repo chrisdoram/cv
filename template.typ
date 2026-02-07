@@ -29,13 +29,13 @@
     justify: true
   )
 
-  #show title: set text(size: 1.25em)
+  #show title: set text(fill: blue, size: 1.25em)
   #show title: set align(center)
   #show title: set block(below: 0.6em)
 
   #show heading.where(level: 1): it => [
     #set align(left)
-    #set text(size: 0.9em)
+    #set text(fill: blue, size: 0.9em)
     #smallcaps(it.body)
     #v(-0.75em)
     #line(length: 100%, stroke: 1pt + black)
@@ -58,11 +58,11 @@
 
   = Work Experience
   #for work in args.work [
-    *#link(work.url)[#work.name]* #h(1fr) *#work.location.join([#sym.space.en #sym.slash #sym.space.en])* \
     #for role in work.roles [
-      #text(style: "italic")[#role.title] #h(1fr) #role.start-date #sym.dash.en #role.end-date \
-      #if role.description != none [#role.description \ ]
+      *#link(work.url)[#work.name]* | #text(style: "italic")[#role.title] #h(1fr) #role.start-date #sym.dash.en #role.end-date \
+      #v(1pt)
       #list(..role.highlights)
+      #v(0.25em)
     ]
   ]
 
